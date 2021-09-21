@@ -26,6 +26,10 @@ body {
     border: 1px solid #fff;
     color: #fff;
     transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+   -webkit-transform: skewX(-30deg);
+   -o-transform: skewX(-30deg);
+   -ms-transform: skewX(-30deg);
 }
 .btn__submit {
     position: relative;
@@ -34,6 +38,10 @@ body {
     border: 1px solid #fff;
     color: #fff;
     transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+   -webkit-transform: skewX(-30deg);
+   -o-transform: skewX(-30deg);
+   -ms-transform: skewX(-30deg);
     background-color: red;
     cursor: pointer;
 }
@@ -45,6 +53,10 @@ body {
     outline: unset;
     font-size: 18px;
     transform: skewX(30deg);
+    -moz-transform: skewX(30deg);
+   -webkit-transform: skewX(30deg);
+   -o-transform: skewX(30deg);
+   -ms-transform: skewX(30deg);
 }
 .form__input::placeholder {
     opacity: 1;
@@ -52,6 +64,10 @@ body {
 .btn__text {
     font-size: 18px;
     transform: skewX(30deg);
+    -moz-transform: skewX(30deg);
+   -webkit-transform: skewX(30deg);
+   -o-transform: skewX(30deg);
+   -ms-transform: skewX(30deg);
     text-transform: uppercase;
 }
 .modal {
@@ -71,20 +87,36 @@ body {
         padding: 10px;
         max-width: 50%;
         transform: skewX(0);
+        -moz-transform: skewX(0deg);
+        -webkit-transform: skewX(0deg);
+        -o-transform: skewX(0deg);
+        -ms-transform: skewX(0deg);
    }
     .btn__submit {
         padding: 10px;
         padding-right: 30px;
         max-width: 50%;
         transform: skewX(0);
+        -moz-transform: skewX(0deg);
+        -webkit-transform: skewX(0deg);
+        -o-transform: skewX(0deg);
+        -ms-transform: skewX(0deg);
    }
     .btn__text {
         font-size: 16px;
         transform: skewX(0);
+        -moz-transform: skewX(0deg);
+        -webkit-transform: skewX(0deg);
+        -o-transform: skewX(0deg);
+        -ms-transform: skewX(0deg);
    }
     .form__input {
         font-size: 16px;
         transform: skewX(0);
+        -moz-transform: skewX(0deg);
+        -webkit-transform: skewX(0deg);
+        -o-transform: skewX(0deg);
+        -ms-transform: skewX(0deg);
    }
    .icon {
         transform: skewX(0) translateX(-5px) translateY(-50%);
